@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Rokt</string>
+    <string name="message_average_display">The average is:\n %1$s</string>
+    <string name="label_get_average">Get Average</string>
+    <string name="label_submit">Submit</string>
+    <string name="hint_number_input">Enter a number to submit</string>
+    <string name="message_number_submitted">Your number has been submitted.</string>
+</resources>

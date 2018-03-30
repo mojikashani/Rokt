@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_standard">
+
+    <TextView
+        android:id="@+id/txtDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/display_height"
+        android:textSize="@dimen/display_text_size"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+    <Button
+        android:layout_marginTop="@dimen/margin_standard"
+        android:layout_marginBottom="@dimen/margin_huge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_get_average"
+        android:onClick="onGetAverageClicked"/>
+    <EditText
+        android:id="@+id/editNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_number_input"
+        android:inputType="numberDecimal"/>
+    <Button
+        android:layout_marginTop="@dimen/margin_standard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_submit"
+        android:onClick="onSubmitClicked"/>
+
+</LinearLayout>
